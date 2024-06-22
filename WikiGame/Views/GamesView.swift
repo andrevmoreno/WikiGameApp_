@@ -51,7 +51,7 @@ struct GamesView: View {
                                 tags = game.tags
                                 imgsUrl = game.galleryImages
                                 
-                                print("Touch game\(titles)")
+                                print("Touch Game\(titles)")
                             
                             } label: {
                                 Text("\(game.title)")
