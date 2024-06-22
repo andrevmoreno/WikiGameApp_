@@ -14,6 +14,10 @@
 		B49F8F812C23931C00479E02 /* WikiGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49F8F802C23931C00479E02 /* WikiGameTests.swift */; };
 		B49F8F8B2C23931C00479E02 /* WikiGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49F8F8A2C23931C00479E02 /* WikiGameUITests.swift */; };
 		B49F8F8D2C23931C00479E02 /* WikiGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49F8F8C2C23931C00479E02 /* WikiGameUITestsLaunchTests.swift */; };
+		B49F8F9A2C249C0300479E02 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49F8F992C249C0300479E02 /* Home.swift */; };
+		B49F8F9C2C250B3000479E02 /* GamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49F8F9B2C250B3000479E02 /* GamesView.swift */; };
+		B49F8FA12C25A32700479E02 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49F8FA02C25A32700479E02 /* Models.swift */; };
+		B49F8FA32C25A33D00479E02 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49F8FA22C25A33D00479E02 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		B49F8F862C23931C00479E02 /* WikiGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikiGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B49F8F8A2C23931C00479E02 /* WikiGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiGameUITests.swift; sourceTree = "<group>"; };
 		B49F8F8C2C23931C00479E02 /* WikiGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B49F8F992C249C0300479E02 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		B49F8F9B2C250B3000479E02 /* GamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesView.swift; sourceTree = "<group>"; };
+		B49F8FA02C25A32700479E02 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B49F8FA22C25A33D00479E02 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,7 @@
 		B49F8F632C23931B00479E02 = {
 			isa = PBXGroup;
 			children = (
+				B49F8F6F2C23931B00479E02 /* WikiGameApp.swift */,
 				B49F8F6E2C23931B00479E02 /* WikiGame */,
 				B49F8F7F2C23931C00479E02 /* WikiGameTests */,
 				B49F8F892C23931C00479E02 /* WikiGameUITests */,
@@ -94,8 +103,9 @@
 		B49F8F6E2C23931B00479E02 /* WikiGame */ = {
 			isa = PBXGroup;
 			children = (
-				B49F8F6F2C23931B00479E02 /* WikiGameApp.swift */,
-				B49F8F712C23931B00479E02 /* ContentView.swift */,
+				B49F8F9E2C25A2C800479E02 /* Models */,
+				B49F8F9D2C25A23600479E02 /* Views */,
+				B49F8F9F2C25A2F600479E02 /* View Model */,
 				B49F8F732C23931C00479E02 /* Assets.xcassets */,
 				B49F8F752C23931C00479E02 /* Preview Content */,
 			);
@@ -125,6 +135,32 @@
 				B49F8F8C2C23931C00479E02 /* WikiGameUITestsLaunchTests.swift */,
 			);
 			path = WikiGameUITests;
+			sourceTree = "<group>";
+		};
+		B49F8F9D2C25A23600479E02 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B49F8F712C23931B00479E02 /* ContentView.swift */,
+				B49F8F992C249C0300479E02 /* Home.swift */,
+				B49F8F9B2C250B3000479E02 /* GamesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B49F8F9E2C25A2C800479E02 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B49F8FA02C25A32700479E02 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B49F8F9F2C25A2F600479E02 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				B49F8FA22C25A33D00479E02 /* ViewModel.swift */,
+			);
+			path = "View Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +294,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B49F8F722C23931B00479E02 /* ContentView.swift in Sources */,
+				B49F8F9A2C249C0300479E02 /* Home.swift in Sources */,
+				B49F8F9C2C250B3000479E02 /* GamesView.swift in Sources */,
 				B49F8F702C23931B00479E02 /* WikiGameApp.swift in Sources */,
+				B49F8FA32C25A33D00479E02 /* ViewModel.swift in Sources */,
+				B49F8FA12C25A32700479E02 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
