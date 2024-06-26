@@ -1,8 +1,8 @@
 //
-//  Home_1.swift
+//  Home.swift
 //  WikiGame
 //
-//  Created by Andrea Moreno on 23-06-24.
+//  Created by Andrea Moreno on 20-06-24.
 //
 
 import SwiftUI

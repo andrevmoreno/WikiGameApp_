@@ -1,10 +1,9 @@
 //
-//  GamesView_1.swift
+//  GamesView.swift
 //  WikiGame
 //
-//  Created by Andrea Moreno on 23-06-24.
+//  Created by Andrea Moreno on 20-06-24.
 //
-
 import SwiftUI
 
 struct GamesView: View {
@@ -69,7 +68,7 @@ struct GamesView: View {
                                             .padding(.vertical, 1.0 )
                                     } placeholder: {
                                         placeholderImage()
-                                    }; NavigationLink(destination: GameView(url: url, titles: titles, studio: studio, calificacion: calificacion, publishedYear: publishedYear, descriptions: descriptions, tags: tags, imgsUrl: imgsUrl),
+                                    } NavigationLink(destination: GameView(url: url, titles: titles, studio: studio, calificacion: calificacion, publishedYear: publishedYear, descriptions: descriptions, tags: tags, imgsUrl: imgsUrl),
                                                      isActive: $gameviewIsActive, label: {EmptyView()})
                                 }
                             }

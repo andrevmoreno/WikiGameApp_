@@ -1,8 +1,8 @@
 //
-//  ContentView_1.swift
+//  ContentView.swift
 //  WikiGame
 //
-//  Created by Andrea Moreno on 23-06-24.
+//  Created by Andrea Moreno on 19-06-24.
 //
 
 import SwiftUI
@@ -308,5 +308,4 @@ func SignupButton(){
 #Preview {
     ContentView()
 }
-
 
